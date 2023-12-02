@@ -1,0 +1,23 @@
+[window]
+title="Windowed game"
+fullscreen=0
+borderless=0
+exit_button_visible=0
+fps_counter=0
+
+[resources]
+path = "osu-resources/osu.Game.Resources"
+
+	[resources.textures]
+	path = "/Textures"
+
+	[resources.textures.menu]
+	name = "Menu"
+	path = "/Menu"
+
+		[resources.textures.menu.textures]
+		logo = "logo.png"
+		background = "menu-background-1"
+		fountainStar = "fountain-star.png"
+
+
